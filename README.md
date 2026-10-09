@@ -16,7 +16,7 @@ An interactive, executive-level business intelligence dashboard built in Microso
 
 ## 📸 Dashboard Overview
 
-![Dashboard Preview](assets/dashboard_preview1.png)
+![Dashboard Preview](assets/dashboard_preview.png)
 
 > *The interactive dashboard features multi-cache Slicers filtering metrics dynamically by **State** and **Product Category**.*
 
@@ -42,3 +42,33 @@ An interactive, executive-level business intelligence dashboard built in Microso
 ## 🛠️ Data Architecture & Analytical Workflow
 
 The underlying workbook is structured across 4 dedicated, modular tabs to preserve raw data integrity and support clear analytical execution:
+
+> `[Raw_Data]` ➔ `[Working_Data]` ➔ `[Pivot_Tables]` ➔ `[Dashboard]`
+
+* **`Raw_Data`**: Immutable source dataset of 1,194 transaction logs.
+* **`Working_Data`**: Structured Excel Table (`SalesTable`) containing engineered helper columns:
+  * **`Profit Margin %`**: `=[@Profit] / [@Amount]`
+  * **`Quantity Tier`**: `=IF([@Quantity]<=5, "1. Small (1-5)", IF([@Quantity]<=12, "2. Medium (6-12)", "3. Bulk (>12)"))`
+* **`Pivot_Tables`**: 6 dedicated Pivot Tables modeling category profit sums, payment frequency distributions, sub-category margin averages, quantity crosstabs, regional rankings, and a 3-column summary table for scatter coordinate mapping.
+* **`Dashboard`**: Clean UI/UX view with gridlines removed, customized KPI scorecards, multi-connected cross-filtering slicers (`State`, `Category`), and cohesive color palette formatting.
+
+---
+
+## 📂 Repository Contents
+
+| File Name | Description |
+| :--- | :--- |
+| `E-Commerce_Sales_&_Profitability_Dashboard.xlsx` | Complete 4-tab interactive Excel workbook |
+| `Sales Dataset.csv` | Raw transaction source data |
+| `assets/` | High-resolution dashboard screenshots and chart graphics |
+| `README.md` | Project documentation and executive summary |
+
+---
+
+## 👤 Author
+
+**Beta Catur Oktaviano**  
+*Physics Student at IPB University | Data Analytics & Business Intelligence Enthusiast*  
+* **LinkedIn:** [Your LinkedIn Profile URL]  
+* **Email:** oktaviano8989@gmail.com  
+* **Portfolio:** [Your Portfolio Link]
