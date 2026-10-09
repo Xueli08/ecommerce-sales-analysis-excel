@@ -16,7 +16,7 @@ An interactive, executive-level business intelligence dashboard built in Microso
 
 ## 📸 Dashboard Overview
 
-![Dashboard Preview](assets/dashboard_ecommerce1.jpeg)
+![Dashboard Preview](dashboard_ecommerce1.jpeg)
 
 > *The interactive dashboard features multi-cache Slicers filtering metrics dynamically by **State** and **Product Category**.*
 
