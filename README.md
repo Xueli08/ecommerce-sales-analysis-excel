@@ -16,7 +16,7 @@ An interactive, executive-level business intelligence dashboard built in Microso
 
 ## 📸 Dashboard Overview
 
-![Dashboard Preview](assets/dashboard_preview.png)
+![Dashboard Preview](assets/dashboard_ecommerce1.jpeg)
 
 > *The interactive dashboard features multi-cache Slicers filtering metrics dynamically by **State** and **Product Category**.*
 
@@ -59,7 +59,6 @@ The underlying workbook is structured across 4 dedicated, modular tabs to preser
 | File Name | Description |
 | :--- | :--- |
 | `E-Commerce_Sales_&_Profitability_Dashboard.xlsx` | Complete 4-tab interactive Excel workbook |
-| `Sales Dataset.csv` | Raw transaction source data |
 | `assets/` | High-resolution dashboard screenshots and chart graphics |
 | `README.md` | Project documentation and executive summary |
 
@@ -68,7 +67,5 @@ The underlying workbook is structured across 4 dedicated, modular tabs to preser
 ## 👤 Author
 
 **Beta Catur Oktaviano**  
-*Physics Student at IPB University | Data Analytics & Business Intelligence Enthusiast*  
-* **LinkedIn:** [Your LinkedIn Profile URL]  
+*Physics Student at IPB University | Data Analytics & Business Intelligence Enthusiast*   
 * **Email:** oktaviano8989@gmail.com  
-* **Portfolio:** [Your Portfolio Link]
