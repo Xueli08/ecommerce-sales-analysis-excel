@@ -59,7 +59,6 @@ The underlying workbook is structured across 4 dedicated, modular tabs to preser
 | File Name | Description |
 | :--- | :--- |
 | `E-Commerce_Sales_&_Profitability_Dashboard.xlsx` | Complete 4-tab interactive Excel workbook |
-| `assets/` | High-resolution dashboard screenshots and chart graphics |
 | `README.md` | Project documentation and executive summary |
 
 ---
